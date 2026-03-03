@@ -5,7 +5,7 @@ import { FileService } from '../services/fileService';
 
 @JsonController('/files')
 export class FileController {
-
+    //controller
     private fileService = new FileService();  
 
     @Post('/upload')
