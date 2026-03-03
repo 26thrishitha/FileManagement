@@ -14,6 +14,7 @@ export class FileController {
     ) {
         return this.fileService.uploadFile(file);  
     }
+    //base url aokjklfj
 
     @Get('/')
     getAllFiles() {
